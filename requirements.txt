@@ -1,0 +1,14 @@
+# --- NeuGB Spatial Intelligence Engine Dependencies ---
+# Hardware Target: NVIDIA Jetson AGX Orin / Thor (JetPack 6.0+)
+# CUDA Compilation Environment: nvcc >= 12.2
+
+numpy>=1.24.3
+scipy>=1.11.1
+torch>=2.1.0+cu121
+torchvision>=0.16.0+cu121
+tensorrt>=8.6.1
+warp-lang>=1.0.0
+modulus>=24.01
+holoscan>=2.0.0
+omniverse-nucleus-client>=23.11
+pydantic>=2.5.2
