@@ -67,3 +67,21 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Private Local AI Weights and Models
+*.pt
+*.onnx
+*.engine
+*.trt
+config/private_keys.env
